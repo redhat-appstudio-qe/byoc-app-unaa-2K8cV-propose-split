@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jqmt
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-vsrs-tenant/byoc-app-unaa/jqmt@sha256:9bcdce8178abe8ada61e4caa8cb256da0baa48ba2e3a4d4a8f1b88ee27765c5e
         name: my-java-quarkus
         ports:
         - containerPort: 8081
